@@ -15,5 +15,3 @@ RUN apt-get -y update                                                          \
         && rm -rf /var/lib/apt/lists/* 
 
 WORKDIR /pdk
-
-ENTRYPOINT ["pdk"]
